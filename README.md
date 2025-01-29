@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Login to view
 
-First, run the development server:
+Email: faizan@gmail.com,
+password: 12345678
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Detailed Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application is built using Appwrite, Next.js, Tailwind CSS, and TypeScript, leveraging modern web development technologies to provide authentication, routing, and a responsive UI. The application follows a structured approach using the Context API for global state management, ensuring seamless authentication handling across different pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+It includes a complex routing structure, efficiently managing protected routes and user redirection using Next.js's useRouter(). Authentication is powered by Appwrite, handling user sign-up, login, and session persistence. The UI is styled using Tailwind CSS, offering a scalable and maintainable design.
 
-## Learn More
+The application ensures best practices by managing state updates inside useEffect hooks to prevent React rendering issues. It also implements delayed navigation techniques (setTimeout, Promise.resolve(), or useEffect) to avoid conflicts between state updates and routing.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
